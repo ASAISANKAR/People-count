@@ -6,7 +6,7 @@ from tracker import *
 
 model = YOLO('yolov8n.pt')
 
-cap = cv2.VideoCapture(r"./peoplecount2.mp4")
+cap = cv2.VideoCapture(r"./input.mp4")
 
 my_file = open("coco.txt", "r")
 data = my_file.read()
